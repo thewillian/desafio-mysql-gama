@@ -1,0 +1,30 @@
+/* Criação de tabela */
+
+CREATE TABLE cliente(
+
+   id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+
+   nome VARCHAR(100) NOT NULL, 
+
+   email VARCHAR(70) NOT NULL UNIQUE, 
+
+   senha VARCHAR(20) NOT NULL, 
+
+   cpf VARCHAR(15) NOT NULL UNIQUE
+
+);
+
+/* Inserção de dados */
+
+INSERT INTO cliente VALUES (null,  "ALINE LANZILLO MOREIRA", "alinemor@mail.com","292210","100.200.293-94");
+INSERT INTO cliente VALUES (null,  "ANA CHRISTINA BRITO BRISQUE","anabbri@mail.com","292521","100.200.294-95");
+INSERT INTO cliente VALUES (null,  "ANDERSON KAZUNORI UEHARA","andkaue@mail.com","295892","100.200.295-96");
+INSERT INTO cliente VALUES (null,  "BRUNO RIBEIRO DA SILVA PEREIRA","brurspe@mail.com","292213","100.200.296-97");
+INSERT INTO cliente VALUES (null,  "CAIO CESAR SANTOS DINIZ","cacedi@mail.com","292524","100.200.297-98");
+INSERT INTO cliente VALUES (null,  "CAMILA GREGORIO IRINEU","cagiri@mail.com","295895","100.200.298-99");
+INSERT INTO cliente VALUES (null,  "CELSO FERNANDES DE LIMA","celi@mail.com","292216","100.200.300-00");
+INSERT INTO cliente VALUES (null,  "CHRISTIANO DA FONSECA","chdafo@mail.com","292527","100.200.301-01");
+INSERT INTO cliente VALUES (null,  "CLISTINES MARIANO DANIEL MERLUCCI","11555512398","28166","100.200.302-02");
+INSERT INTO cliente VALUES (null,  "CYBELLE DA SILVA SOUZA","cysiso@mail.com","329439","100.200.303-03");
+INSERT INTO cliente VALUES (null,  "DANIEL GORSTEN SCHUNEMANN","dgorma@mail.com","237740","100.200.304-04");
+INSERT INTO cliente VALUES (null,  "DEBORA DUARTE DE OLIVEIRA","deduve@mail.com","319431","100.200.305-05");
